@@ -146,17 +146,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Arkanoid.h" />
-    <ClInclude Include="Collision\CircleCollision.h" />
-    <ClInclude Include="Collision\RectCollision.h" />
+    <ClInclude Include="Interface\MoveAble.h" />
+    <ClInclude Include="Interface\Move1D.h" />
+    <ClInclude Include="Interface\Move2D.h" />
+    <ClInclude Include="Object\Object.h" />
+    <ClInclude Include="Object\Brick.h" />
+    <ClInclude Include="Object\Ball.h" />
+    <ClInclude Include="Collider\CircleCollider.h" />
+    <ClInclude Include="Collider\RectCollider.h" />
+    <ClInclude Include="Object\Player.h" />
     <ClInclude Include="Shape\Shape.h" />
     <ClInclude Include="Shape\Circle.h" />
-    <ClInclude Include="Collision\Collision.h" />
+    <ClInclude Include="Collider\Collider.h" />
     <ClInclude Include="Shape\Rect.h" />
     <ClInclude Include="Scene\ArkanoidScene.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Program\Program.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Stages\Stage1.h" />
     <ClInclude Include="Stages\Stage.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Math\Vector2.h" />
@@ -164,11 +172,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Arkanoid.cpp" />
-    <ClCompile Include="Collision\CircleCollision.cpp" />
-    <ClCompile Include="Collision\RectCollision.cpp" />
+    <ClCompile Include="Interface\MoveAble.cpp" />
+    <ClCompile Include="Interface\Move1D.cpp" />
+    <ClCompile Include="Interface\Move2D.cpp" />
+    <ClCompile Include="Object\Object.cpp" />
+    <ClCompile Include="Object\Brick.cpp" />
+    <ClCompile Include="Object\Ball.cpp" />
+    <ClCompile Include="Collider\CircleCollider.cpp" />
+    <ClCompile Include="Collider\RectCollider.cpp" />
+    <ClCompile Include="Object\Player.cpp" />
     <ClCompile Include="Shape\Shape.cpp" />
     <ClCompile Include="Shape\Circle.cpp" />
-    <ClCompile Include="Collision\Collision.cpp" />
+    <ClCompile Include="Collider\Collider.cpp" />
     <ClCompile Include="Shape\Rect.cpp" />
     <ClCompile Include="Scene\ArkanoidScene.cpp" />
     <ClCompile Include="framework.cpp">
@@ -180,6 +195,7 @@
     <ClCompile Include="Math\Vector2.cpp" />
     <ClCompile Include="Program\Program.cpp" />
     <ClCompile Include="Scene\Scene.cpp" />
+    <ClCompile Include="Stages\Stage1.cpp" />
     <ClCompile Include="Stages\Stage.cpp" />
   </ItemGroup>
   <ItemGroup>

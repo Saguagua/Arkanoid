@@ -15,9 +15,14 @@ Circle::~Circle()
 {
 }
 
+float Circle::GetRadius()
+{
+	return _radius;
+}
+
 void Circle::Render(HDC hdc)
 {
-	SelectObject(hdc, _brushes[0]);
+	SelectObject(hdc, _brushes[_brushIndex]);
 
 	int left = _center.x - _radius;
 	int right = _center.x + _radius;

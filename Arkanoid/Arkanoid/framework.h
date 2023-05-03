@@ -1,7 +1,6 @@
 // header.h: 표준 시스템 포함 파일
 // 또는 프로젝트 특정 포함 파일이 들어 있는 포함 파일입니다.
 //
-
 #pragma once
 
 #include "targetver.h"
@@ -22,10 +21,13 @@ using namespace std;
 //Math
 #include "Math/Vector2.h"
 
+//Interface
+#include "Interface/MoveAble.h"
+
 //Collision
-#include "Collision/Collision.h"
-#include "Collision/CircleCollision.h"
-#include "Collision/RectCollision.h"
+#include "Collider/Collider.h"
+#include "Collider/CircleCollider.h"
+#include "Collider/RectCollider.h"
 
 //Shape
 #include "Shape/Shape.h"
@@ -33,7 +35,10 @@ using namespace std;
 #include "Shape/Rect.h"
 
 //Object
-
+#include "Object/Object.h"
+#include "Object/Ball.h"
+#include "Object/Player.h"
+#include "Object/Brick.h"
 
 //Stage
 #include "Stages/Stage.h"
@@ -45,3 +50,5 @@ using namespace std;
 #include "Program/Program.h"
 
 #include "Types.h"
+
+extern HWND hWnd;

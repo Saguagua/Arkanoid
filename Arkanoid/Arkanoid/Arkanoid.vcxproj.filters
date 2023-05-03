@@ -42,7 +42,7 @@
     <ClInclude Include="Stages\Stage.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Collision\Collision.h">
+    <ClInclude Include="Collider\Collider.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Shape\Rect.h">
@@ -51,16 +51,40 @@
     <ClInclude Include="Shape\Circle.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Collision\RectCollision.h">
+    <ClInclude Include="Collider\RectCollider.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Collision\CircleCollision.h">
+    <ClInclude Include="Collider\CircleCollider.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Shape\Shape.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Ball.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Brick.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\MoveAble.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Move1D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Move2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stages\Stage1.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,7 +110,7 @@
     <ClCompile Include="Stages\Stage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Collision\Collision.cpp">
+    <ClCompile Include="Collider\Collider.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Shape\Rect.cpp">
@@ -95,13 +119,37 @@
     <ClCompile Include="Shape\Circle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Collision\RectCollision.cpp">
+    <ClCompile Include="Collider\RectCollider.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Collision\CircleCollision.cpp">
+    <ClCompile Include="Collider\CircleCollider.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Shape\Shape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Ball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Brick.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\MoveAble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Move1D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Move2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stages\Stage1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
